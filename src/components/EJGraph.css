@@ -1,0 +1,48 @@
+.chart-container {
+  margin-top: 50px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.chart-container:hover {
+  transform: translateY(-5px);
+}
+
+.chart-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+.custom-tooltip {
+  background: #1f2937;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.tooltip-label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 20px 15px;
+  }
+
+  .chart-heading {
+    font-size: 1.4rem;
+  }
+
+  .custom-tooltip {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,108 @@
+.hero-container {
+  position: relative;
+  overflow: hidden;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background-color: #000; /* fallback */
+}
+
+/* ✨ Animated Stars Layer */
+.hero-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: url('https://i.pinimg.com/736x/d9/f0/37/d9f037a0d0d7513fbbd1d2fc76d47f60.jpg') repeat;
+  opacity: 0.3;
+  animation: twinkling 20s linear infinite;
+  z-index: 0;
+}
+
+@keyframes twinkling {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100px); }
+}
+
+/* Keep Hero content above */
+.hero-container > * {
+  z-index: 1;
+}
+
+#home {
+  flex: 1;
+  text-align: left;
+}
+
+#home h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+#home p {
+  font-size: 1.2rem;
+  color: #dddddd;
+}
+
+#hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔄 Mobile Responsive */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  #home p {
+    font-size: 1rem;
+  }
+
+  .hero-image {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.resume-button {
+  padding: 12px 24px;
+  background-color: #5539f8;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #9c9c9c;
+}
+
+
