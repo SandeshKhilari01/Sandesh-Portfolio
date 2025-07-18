@@ -1,4 +1,3 @@
-
 import './Projects.css';
 import { motion } from 'framer-motion';
 
@@ -21,10 +20,30 @@ function Projects() {
           link: "https://github.com/your-repo-link",
           label: "View Project"
         }, {
-          title: "Portfolio Website (You’re looking at it!)",
+          title: "Portfolio Website (You are looking at it!)",
           desc: "Responsive and deployable personal portfolio built with React and normal CSS. Clean structure and pixel-focused layout for professional presentation.",
           link: "https://your-deployment-link.com",
           label: "Live Site"
+        }, {
+          title: "Veritas",
+          desc: "Veritas is an intelligent compliance automation platform that integrates directly into the software development lifecycle (SDLC). It continuously analyzes code, documents, and infrastructure using AI to validate alignment with real regulatory standards like ISO 27001, CERT-In, and PDPB.",
+          link: "https://github.com/SandeshKhilari01/Veritas-IBM-TechXChange2025",
+          label: "View Project"
+        }, {
+          title: "AssureFi",
+          desc: "AssureFi is a comprehensive risk analysis platform for DeFi tokens, integrating smart contract vulnerability detection, liquidity monitoring, and sentiment analysis to enhance investor confidence and security.",
+          link: "https://github.com/SandeshKhilari01/AssureFi_OpenServ_Hackathon_2025",
+          label: "View Project"
+        }, {
+          title: "Eco-Cart",
+          desc: "EcoCart – AI-Powered Sustainable Product Recommender. An AI-based engine that helps Walmart customers make eco-friendly shopping choices by recommending low-emission, ethically sourced alternatives in real-time—supporting Project Gigaton goals.",
+          link: "https://github.com/SandeshKhilari01/Eco-Wallet-Hackathon-2025",
+          label: "View Project"
+        }, {
+          title: "ReWear",
+          desc: "ReWear is a web-based platform that allows users to browse, list, swap, and purchase second-hand clothing. It provides a clean and user-friendly interface to manage clothing items, track swap history, and explore products by category.",
+          link: "https://github.com/SandeshKhilari01/Odoo-Hackathon-2025",
+          label: "View Project"
         }].map((project, index) => (
           <motion.div
             className="project-card"
