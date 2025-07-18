@@ -17,10 +17,10 @@ function Projects() {
         {[{
           title: "Exploring Wonders of Physics with Avinya",
           desc: "Built an AR application to teach physics concepts using interactive 3D models. It enhances student learning with a hands-on approach and immersive experiences.",
-          link: "https://github.com/your-repo-link",
+          link: "https://github.com/SandeshKhilari01/Physics_AR_Project",
           label: "View Project"
         }, {
-          title: "Portfolio Website (You are looking at it!)",
+          title: "Portfolio Website",
           desc: "Responsive and deployable personal portfolio built with React and normal CSS. Clean structure and pixel-focused layout for professional presentation.",
           link: "https://your-deployment-link.com",
           label: "Live Site"
