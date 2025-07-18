@@ -8,7 +8,7 @@ const blogPosts = [
     title: " We Nailed Shark Tank at IIC!",
     date: "October 2023",
     description: "Hey everyone! I'm beyond thrilled to share that my team and I secured 3rd place in the Shark Tank competition organized by IIC!  The energy, the pitching, and the feedback — everything was just electric. This experience gave us huge momentum for our project. Big thanks to everyone who backed us throughout this journey. Stay tuned, we’re just getting started!",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQGKLWCRxnxO_g/feedshare-shrink_800/feedshare-shrink_800/0/1699038032466?e=1752710400&v=beta&t=Elf4j1Pp9WyTRuPX7_2jhx802yGfNpOy7xv0XpodsGI",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQGKLWCRxnxO_g/feedshare-shrink_800/feedshare-shrink_800/0/1699038032466?e=1755734400&v=beta&t=XpR2I6Ww8AizzAlJk70YTAC3fSnCzVx1v6OCgeDjRhs",
     tags: ["Pitching", "Shark Tank", "IIC"],
   },
   {
@@ -16,7 +16,7 @@ const blogPosts = [
     title: " Broadening My Horizon with IEEE",
     date: "October 2023",
     description: "What an inspiring day! I had the chance to dive deep into creative thinking and strategic problem solving, thanks to an amazing session by IEEE.  These kinds of interactions really open up new ways of thinking and expand how I approach challenges. If you ever get a chance to attend something like this — go for it!",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQHF6-WdcKJ0-w/feedshare-shrink_800/feedshare-shrink_800/0/1699040477409?e=1752710400&v=beta&t=eNgR5GcCdYA8ogExrgHS84MzpOUSWJNX46NBChglhJ8",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQHF6-WdcKJ0-w/feedshare-shrink_800/feedshare-shrink_800/0/1699040477409?e=1755734400&v=beta&t=CRZvqIN82MIotTm7_QGXBd3vswvQ5uKEfwIqojKk574",
     tags: ["IEEE", "Creativity", "Problem Solving"],
   },
   {
@@ -24,7 +24,7 @@ const blogPosts = [
     title: " Learning from a CEO: Mentorship with Neville Patel",
     date: "November 2023",
     description: "Huge shoutout to Neville Patel, CEO of Qualitas Global Services, for an absolutely enriching mentorship session.  His insights about leadership, innovation, and industry realities really struck a chord with us engineering students. Also, cheers to Team Avinya — we grow stronger together!",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFaft2_cVxo5Q/feedshare-shrink_800/feedshare-shrink_800/0/1699285812773?e=1752710400&v=beta&t=EdBNp-ePHXsGoSZkl6htw2uk8TRNko0QvnnhbtNr0EE",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFaft2_cVxo5Q/feedshare-shrink_800/feedshare-shrink_800/0/1699285812773?e=1755734400&v=beta&t=Ixd-eUfiFB48OsJMXliaRG4THbtrTeICmRF7kKF3r3k",
     tags: ["Mentorship", "Leadership", "Avinya"],
   },
   {
@@ -64,7 +64,7 @@ const blogPosts = [
     title: " Gen AI Exchange Hackathon Roadshow – Pune",
     date: "March 2024",
     description: "Had an amazing time learning from industry leaders like Aditi Bhosale Walunj, Dr. Vidhi Bhanushali, and Madhukar Bhatia at the Gen AI Exchange Hackathon Roadshow in Pune! It was all about collaboration, innovation, and exploring how Gen AI is changing the future.",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D5622AQHwWn4a3V2plg/feedshare-shrink_800/feedshare-shrink_800/0/1724739844887?e=1752710400&v=beta&t=cB6FgGmhFHMwDPgqAmqW8FsHwL00ZEWUv9BtJUfK4i8",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D5622AQHwWn4a3V2plg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1724739844998?e=1755734400&v=beta&t=Yx5FRCvfyOItuB7cusoPIndTGH3XARb-FWl2ouConuA",
     tags: ["GenAI", "Hackathon", "Networking", "Pune"],
   },
   {
@@ -72,7 +72,7 @@ const blogPosts = [
     title: " HackCelestial PCE Mumbai – Hospital Bed to Victory",
     date: "April 2024",
     description: "Just two days before the hackathon, I was hospitalized due to food poisoning. But with support from my doctors and family, I participated virtually from the hospital while my team handled the onsite work. Despite the odds, we secured the 4th runner-up spot! A true story of grit and teamwork.",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFjSgxCl4wVNA/feedshare-shrink_800/feedshare-shrink_800/0/1727116034453?e=1752710400&v=beta&t=lfYd9649KOnZyKorhguqbulSf4Z9QZfoXj0GvtNWwqw",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFjSgxCl4wVNA/feedshare-shrink_800/feedshare-shrink_800/0/1727116034453?e=1755734400&v=beta&t=JPncIXP7g550FE6CzLRqauT3TEmj0LBEefbk4PrDcuo",
     tags: ["Hackathon", "Teamwork", "Resilience", "PCE Mumbai"],
   },
   {
@@ -80,7 +80,7 @@ const blogPosts = [
     title: " From Idea to MVP – My Hackathon Execution Blueprint",
     date: "January 2025",
     description: "Solving real-world problems doesn't have to be complicated! I shared my complete framework—from problem discovery and ideation to building an MVP and iterating with feedback. Execution beats overthinking. Apply, build, learn, repeat!",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQEqhCS-woqxkA/feedshare-shrink_2048_1536/B4DZREouUhG4As-/0/1736318328085?e=1752710400&v=beta&t=383bmHLn-w6tZ0h7BbW9DZLEtkrTNN7NFHBflnvRp9U",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFImgIlkTi3dw/feedshare-shrink_800/feedshare-shrink_800/0/1733749451930?e=1755734400&v=beta&t=SYpIhhSgN-gRlH4VcfYWMqG6rOCovkxziZmWmjojbJ4",
     tags: ["Hackathon", "Execution", "MVP", "Startup Thinking"],
   },
   {
@@ -88,7 +88,7 @@ const blogPosts = [
     title: " 36 Hours – 2 Hackathons – 2 Wins!",
     date: "February 2025",
     description: "One weekend. Two hackathons. No sleep. Our team participated in 'The Better Hack' (12 hours, Top 10 finish) and 'Technovate You Hackathon' (24 hours overnight, Best in Track winner). It was a whirlwind of creativity, adrenaline, and teamwork!",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQHAjpffRu0-3w/feedshare-shrink_1280/B4DZU4gaTvHwAk-/0/1740409777296?e=1752710400&v=beta&t=-XriwQR92pBY80QTZQY6vt19wT0HV3j7ffe-Ghj0c7g",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQEVL6-YR8KCRw/feedshare-shrink_800/B4DZU4gaQbG4Ao-/0/1740409776847?e=1755734400&v=beta&t=xosewJ8mWjlxdWQIlkW3IxZk5FeQzPqnfk_FSXTQysY",
     tags: ["Hackathon", "Winning Mindset", "Teamwork", "Technovate"],
   },
     {
@@ -96,7 +96,7 @@ const blogPosts = [
     title: " 7th Hackathon Win – AssureFi Secures Dual Awards!",
     date: "April 2025",
     description: "Our project AssureFi achieved an exciting milestone by winning the Community Choice Award and becoming the DeFi Use Case Runner-Up at the OpenservAI Hackathon, securing a total prize of $4000!",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQF6v3ollQKSqg/feedshare-shrink_800/B4DZXOaCh2G8Ag-/0/1742924689321?e=1752710400&v=beta&t=1yk_bzB6-w6kyLxLVlnbGMbD54iDdvBKo5V4PZX5DjY",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQF6v3ollQKSqg/feedshare-shrink_800/B4DZXOaCh2G8Ag-/0/1742924689321?e=1755734400&v=beta&t=lW43SsN8HTG8bW185BGhtCUlZQhdj9SoVQQVQJA6JtU",
     tags: ["Hackathon", "DeFi", "Blockchain", "AssureFi", "OpenServAI", "Tech Avinya", "Risk Analysis"],
   },
 
