@@ -24,7 +24,7 @@ function Hero() {
           Welcome to my portfolio!
         </motion.p>
         <br />
-        <a href="https://drive.google.com/uc?export=download&id=1-_qexoKxoX8CeJ7puSzBkREmUi5P800J"
+        <a href="https://drive.google.com/file/d/1K4-rAwWkb1nrUmYbnfF0TTklwGYHSvPu/view?usp=sharing"
          target="_blank"
          rel="noopener noreferrer"
          className="resume-button" > Download Resume

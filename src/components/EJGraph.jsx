@@ -15,7 +15,7 @@ const data = [
   { year: "2022", skills: 2, projects: 1, awards: 1, leadership: 0 },
   { year: "2023", skills: 4, projects: 2, awards: 2, leadership: 1 },
   { year: "2024", skills: 7, projects: 4, awards: 4, leadership: 4 },
-  { year: "2025", skills: 9, projects: 5, awards: 7, leadership: 5 },
+  { year: "2025", skills: 9, projects: 8, awards: 7, leadership: 7 },
 ];
 
 const CustomTooltip = ({ active, payload, label }) => {
